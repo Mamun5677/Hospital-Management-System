@@ -1,0 +1,67 @@
+<html>
+<head><title>Mamun=Sing Up</title></head>
+<center><br><br><br>
+<h1><u>User Registration Profile</u></h1> <BR>
+<body background="female-doctor-with-smart-glasses-touching-virtual-screen-medical-technology.jpg">
+
+<h2>
+<script language="javascript">
+function validate()
+{
+var flag=1;
+if(document.myform.id.value==""||
+document.myform.title.value==""||
+document.myform.no.value==""||
+document.myform.cost.value=="")
+{
+flag=0;
+}
+str=document.myform.title.value;
+var str1=document.myform.cost.value;
+if(!((str=="c"&& str1==444) || (str=="jsp" && str1==555)))
+{
+flag=0;
+}
+if(flag==1)
+{
+alert("VALID INPUT");
+}
+else
+{
+alert("INVALID INPUT");
+document.myform.focus();
+}
+}
+</script>
+<form name="myform" action="file:///C:/Users/MD%20AL%20MAMUN/Desktop/Apollo%20Hospital/10%20BMI/BMI.html" target="right">
+<div align="center"><pre>
+Name(USE CAPITAL LETTER):<input type="text" name="id"><br>
+Address :<input type="text" name="title"><br>
+E-mail ID :<input type="text"name="title"><br>
+Contact NO :<input type="text"name="title"><br>
+Password NO :<input type="text" name="no"><br>
+Confirm Password: <input type="text"name="no"><br>
+
+</pre>
+</div>
+<div align="center">
+<input type="submit" value="ok" onClick="validate()"> &nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="clear">
+</form></frem>
+</h3>
+
+<br><br><br>
+
+
+<a href="file:///C:/Users/MD%20AL%20MAMUN/Desktop/Apollo%20Hospital/1%20Home/1-%20HOME.html">
+<font color="black"><B>HOME</B></font></a>
+
+<>
+
+<a href="file:///C:/Users/MD%20AL%20MAMUN/Desktop/Apollo%20Hospital/1%20Home/1-%20HOME.html">
+<font color="black"><B>NEXT</B></font></a
+
+
+</body>
+</center>
+</html>

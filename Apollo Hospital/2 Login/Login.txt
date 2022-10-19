@@ -1,0 +1,60 @@
+<html>
+<head> 
+<title>Mamun=login </title>
+
+</head>
+
+
+
+<center><br><br><br><h1> 
+EXCEL Hospital,Chennai.... 
+</h1>
+
+
+
+<body background="doctor-using-tablet-diagnose-medical-technology.jpg"><H2><br><br><br>
+
+<script language="javascript">
+function validate()
+{
+var flag=1;
+if(document.myform.id.value==""||
+document.myform.pwd.value=="")
+{
+alert("LoginId and Password must be filled")
+flag=0;
+}
+if(flag==1)
+{
+
+alert("VALID INPUT");
+window.open("file:///E:/Study/Project/2/Apollo%20Hospital/2%20Login/ok.html","right");
+}
+else
+{
+alert("INVALID INPUT");
+//document.myform.focus();
+}}
+</script>
+<form name="myform">
+<div align="center"><pre>
+LOGIN ID:<input type="text" name="id"><br>
+PASSWORD:<input type="password" name="pwd">
+</pre>
+<input type="button" value="ok" onClick="validate()">&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="reset" value="clear" >
+</div>
+</form>
+</H2>
+
+
+<br><br><br>
+
+<a href="file:///C:/Users/MD%20AL%20MAMUN/Desktop/Apollo%20Hospital/1%20Home/1-%20HOME.html">
+<font color="black"><B>HOME</B></font></a>
+
+
+</body>
+</center>
+</html>
+<br><br><br><br>
